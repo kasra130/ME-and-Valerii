@@ -15,7 +15,7 @@ class App:
         root.title("undefined")
         # setting window size     test
         width = 600
-        height = 500
+        height = 500 #sending to main
         screenwidth = root.winfo_screenwidth()
         screenheight = root.winfo_screenheight()
         alignstr = '%dx%d+%d+%d' % (width, height,
