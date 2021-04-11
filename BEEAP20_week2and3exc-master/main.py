@@ -12,10 +12,17 @@ from matplotlib.figure import Figure
 class App:
     def __init__(self, root):
         # setting title
+<<<<<<< Updated upstream
         root.title("undefined")    #this is casper 
         # setting window size     test
         width = 600
         height = 500 #sending to main
+=======
+        root.title("Casper and valerii's app")    #changes the title of the window
+        # setting window size     test
+        width = 600
+        height = 500 
+>>>>>>> Stashed changes
         screenwidth = root.winfo_screenwidth()
         screenheight = root.winfo_screenheight()
         alignstr = '%dx%d+%d+%d' % (width, height,
@@ -25,6 +32,9 @@ class App:
 
         self.__GButton_450 = tk.Button(root)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
         self.__GButton_450["bg"] = "#efefef"
         ft = tkFont.Font(family='Times', size=10)
         self.__GButton_450["font"] = ft
@@ -33,7 +43,10 @@ class App:
         self.__GButton_450["text"] = "Button"
         self.__GButton_450.place(x=70, y=50, width=70, height=25)
         self.__GButton_450["command"] = self.__GButton_450_command
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
         self.__GButton_450["bg"] = "black"    #Changes the background color of th button
         ft = tkFont.Font(family='Times', size=10)    #font size and type
         self.__GButton_450["font"] = ft   
