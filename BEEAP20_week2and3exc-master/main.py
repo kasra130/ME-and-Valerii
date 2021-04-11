@@ -15,7 +15,7 @@ class App:
         root.title("undefined")    #this is casper 
         # setting window size     test
         width = 600
-        height = 500
+        height = 500 #sending to main
         screenwidth = root.winfo_screenwidth()
         screenheight = root.winfo_screenheight()
         alignstr = '%dx%d+%d+%d' % (width, height,
@@ -50,7 +50,7 @@ class App:
         self.__GLineEdit_517.place(x=50, y=130, width=234, height=140)
 
         self.__GLineEdit_985 = tk.Canvas(root)
-        self.__GLineEdit_985.place(x=310, y=130, width=239, height=139)
+        self.__GLineEdit_985.place(x=310, y=130, width=239, height=139) #dfbrfdgrtdb
 
         self.__GLineEdit_392 = tk.Canvas(root)
         self.__GLineEdit_392.place(x=50, y=290, width=233, height=157)
