@@ -1,4 +1,7 @@
 from tkinter import *
+from tkinter import filedialog as fd
+from tkinter import tkk
+
 root = Tk()
 def windowsize():                                   #window size
     width = 500    #defining a standing width and height 
@@ -16,13 +19,27 @@ def windowtitle():                  #window title and icon
 
     
 
-def windowcolor():    #screen (inside) color
+def windowfeatures():    #screen (inside) color
     root.configure(bg='black')      #black color
+    Label(root, text="Data analyzer", fg="white", bg="black",font=("Times",20)).grid(row=1, column=1)
+
+
+def openfile():   #command
+    return fd.askopenfilename()   # definig the open file command for the button 
+
+def Pbutton():       #button for open gile 
+    Button(root, text="Open file...", command=openfile).place(x=100, y=150, width=80, height=25)  #resizing button, and giving it a position, text and action command 
+
+
+def comboboxx():
+    ttk.combobox(root, text="hey").place(x=300, y= 150 , width=200, height=25)
+
 
 
 windowsize()
 windowtitle()
-windowcolor()
+windowfeatures()
+Pbutton()
 
 
 
