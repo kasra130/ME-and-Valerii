@@ -29,7 +29,7 @@ def openfile():   #command
 
 def Pbutton():       #button for open gile 
     Button(root, text="Open file...", command=openfile).place(x=100, y=150, width=80, height=25)  #resizing button, and giving it a position, text and action command 
-
+    Button(root, text="Exit", command=exit).place(x=20,y=350, width=60, height=25)
 
 def comboboxx():
     ttk.combobox(root, text="hey").place(x=300, y= 150 , width=200, height=25)
