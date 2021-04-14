@@ -1,0 +1,5 @@
+# ME-and-Valerii
+This is our project for exercise 2_3
+Casper takes care of the GUI (front end) with Tkinter. 
+Valeeri takes care of back end using numpy and pandas
+Both projects will be experimented on, in different branches and finally merge. 
