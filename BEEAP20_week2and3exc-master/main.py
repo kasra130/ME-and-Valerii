@@ -24,6 +24,23 @@ class App:
         root.resizable(width=False, height=False)
 
         self.__GButton_450 = tk.Button(root)
+<<<<<<< Updated upstream
+=======
+
+
+        self.__GButton_450["bg"] = "#efefef"
+        ft = tkFont.Font(family='Times', size=10)
+        self.__GButton_450["font"] = ft
+        self.__GButton_450["fg"] = "#000000"
+        self.__GButton_450["justify"] = "center"
+        self.__GButton_450["text"] = "Button"
+        self.__GButton_450.place(x=70, y=50, width=70, height=25)
+        self.__GButton_450["command"] = self.__GButton_450_command
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
         self.__GButton_450["bg"] = "black"    #Changes the background color of th button
         ft = tkFont.Font(family='Times', size=10)    #font size and type
         self.__GButton_450["font"] = ft   
