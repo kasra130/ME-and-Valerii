@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import filedialog as fd
-from tkinter import tkk
+
 
 root = Tk()
 def windowsize():                                   #window size
