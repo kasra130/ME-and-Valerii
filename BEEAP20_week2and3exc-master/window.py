@@ -47,7 +47,7 @@ class window:
 
 =======
         self.combo.place(x=250, y=90, width=300, height=30)
-        self.combo.bind("<<comboboxSelected>>",combo )
+        self.combo.bind("<<comboboxSelected>>",combo )#t
 
 
         
