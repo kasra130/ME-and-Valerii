@@ -26,7 +26,12 @@ class App:
         self.__GButton_450 = tk.Button(root)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+>>>>>>> Stashed changes
+=======
+
+
 >>>>>>> Stashed changes
         self.__GButton_450["bg"] = "#efefef"
         ft = tkFont.Font(family='Times', size=10)
@@ -37,8 +42,12 @@ class App:
         self.__GButton_450.place(x=70, y=50, width=70, height=25)
         self.__GButton_450["command"] = self.__GButton_450_command
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 =======
+>>>>>>> Stashed changes
+=======
+
 >>>>>>> Stashed changes
         self.__GButton_450["bg"] = "black"    #Changes the background color of th button
         ft = tkFont.Font(family='Times', size=10)    #font size and type
