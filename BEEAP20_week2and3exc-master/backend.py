@@ -2,7 +2,7 @@ class Graph(self):
         self.graph1location1= tk.Frame(frame2)     #frame
         self.graph1location1.place(x=10,y=180)     #location of graph
         fig = plt.figure(figsize=(7, 4), dpi=50,)  #creating an emty plot
-        self.ax0 = fig.add_subplot(111)            #defined as ax0
+        self.ax0 = fig.add_subplot(111)            #defined ax0
         self.chart1 = FigureCanvasTkAgg(fig, self.graph1location1)  #presented as chart
         self.chart1.get_tk_widget().pack()                          #pack() command for matching tkkinter
  
