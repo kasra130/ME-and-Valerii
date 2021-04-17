@@ -14,11 +14,12 @@ class Prog:
     def __init__(self, root):
         root.title("Casper and valerii's app")    #changes the title of the window
         root.geometry("900x700")                  #size
-        root.iconbitmap(r'BEEAP20_week2and3exc-master\image\favicon.ico')    #change icon , You need to take relavant image path, if no possible just comment this out and it will run ...
+        root.iconbitmap(r'image\favicon.ico')    #change icon , You need to take relavant image path, if no possible just comment this out and it will run ...
         root.configure(bg="black")                #screen to black
         root.resizable(width=False, height=False)   #disabling resizing for consistant presentation 
         frame1 =tk.LabelFrame(root, text="Data analyzer", fg="white", bg="black",font=("Times",20)).place(width=900, height=170)  #title on the screen
         frame2= tk.Frame(root, bg="black").place(x=3, y=180, width=900, height=530)
+        Labelselect=Label(frame1, text="Select a city").place(x=450,y=95, width=100, height=20)  #label for the combo 
         info = "This program is desgined to only read *.csv files\nPlease select the file and choose the desired header from the combo box\n This specific version can only read khoa's file" #varible for help button 
         self.Cbutton=Button(root, text="Select File...",command=self.Ccommand).place(x=30, y=90, width=80, height=25)     #choose file button
         self.exitbutton=Button(root, text="Exit", command=exit).place(x=3, y=660, width=60, height=25) #exit button
@@ -34,6 +35,7 @@ class Prog:
         self.dropdown = ttk.Combobox(root)                            #dropdown menu
         self.dropdown.place(x=600, y=90, width=200, height=25)        #place
         self.dropdown.bind("<<ComboboxSelected>>", self.comboBoxcity) #connection to csv
+        
       
       
 
