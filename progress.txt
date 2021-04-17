@@ -1,0 +1,2 @@
+The GUI has been designed, Valerii has figured out the backend and how to integrate the data into the graph on tkinter . 
+Last step is to replicate valeri's code 4x and and put it all into the same class. 
