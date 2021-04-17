@@ -1,15 +1,24 @@
 The GUI layout has been designed after multiple tries. 
 Val and I are matching varibale names and styles
 Agreed to work on two separate files (GUI.py) and (backend.py) 
+Casper will make multiple pushes so that we can decide on what kind of GUI is good and what type of format we are goign to base our code on.
+Valeeri has already figured out the idea of the graphs but needs know the base of the GUI in order to proceed, therefor he will not make as many pushes. 
+
 Every 2 days have a meeting to dicuss progress.
 15.04  The GUI has been designed and Valeeri has figured out how to create multiple graphs but cant figure out how to display on tkinter
 I have designed the space and figure size of the graphs (empty graphs), valeeri is figuring out how to replace them with the "chosen" data.
 16.04 Thanks to Illia's comments we have now figured it out. Valeeri has modified my orginal dummy graph code to match the "proper" matplot style
 lastley we hae figured out how to grab the data of all months starting from january. All left is to put it all in the main.py file 
 
+
 Final touch
 17.04
-The GUI has been designed, Valerii has figured out the backend and how to integrate the data into the graph on tkinter . 
+The GUI has been designed, Valerii has figured out the backend and how to integrate the data into the graph on tkinter but it is not compatble with the GUI. 
+The method in which the backend is written does not fir the class structure.
+We have figured out the proper structure and valeeri will update the backend with the final push.
 Last step is to replicate valeri's code 4x and and put it all into the same class. 
 TODO: Take everything from GUI.py, backend.py and prog.py into a main.py file 
 This will be done today with me and Voleeri in zoom. The goal is to get it done today and have main.py ready in github repo
+
+Work done.... GUI runs, dispays the file path, allows only .CSV and the combox has a label + shows the cities. If the rigth file is not chosen, proper error is given.
+Each city presents 4 graphs. 
